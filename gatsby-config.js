@@ -102,7 +102,7 @@ module.exports = {
         short_name: `Taxi Đồng Tháp`,
         start_url: `/`,
         background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
+        theme_color: `#090580`,
         display: `standalone`,
         icon: "static" + settings.meta.iconimage,
       },

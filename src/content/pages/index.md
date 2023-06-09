@@ -4,6 +4,7 @@ slug: /
 title: Taxi Đồng Tháp Giá Rẻ
 tagline: Taxi Đồng Tháp
 featuredImage: /assets/1481.jpg
+backgroundImage: /assets/background.jpg
 cta:
   ctaText: Liên hệ
   ctaLink: /about

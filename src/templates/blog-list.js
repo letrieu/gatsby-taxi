@@ -34,7 +34,7 @@ query blogListQuery($skip: Int!, $limit: Int!) {
         id
         excerpt(pruneLength: 250)
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
+          date(formatString: "DD/MM/YYYY")
           slug
           title
           featuredImage {

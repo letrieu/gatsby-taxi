@@ -39,6 +39,11 @@ query HomeQuery($id: String!) {
           gatsbyImageData(layout: CONSTRAINED, width: 585, height: 439)
         }
       }
+      backgroundImage {
+        childImageSharp {
+          gatsbyImageData(layout: FULL_WIDTH)
+        }
+      }
       cta {
         ctaText
         ctaLink
@@ -55,7 +60,7 @@ query HomeQuery($id: String!) {
         id
         excerpt(pruneLength: 250)
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
+          date(formatString: "DD/MM/YYYY")
           slug
           title
           featuredImage {
@@ -75,6 +80,9 @@ const HomePage = ({ data }) => {
   const { frontmatter, html } = markdownRemark
   const Image = frontmatter.featuredImage
     ? frontmatter.featuredImage.childImageSharp.gatsbyImageData
+    : ""
+  const BackgroundImage = frontmatter.backgroundImage
+    ? frontmatter.backgroundImage.childImageSharp.gatsbyImageData
     : ""
   const sIcons = Icons.socialIcons.map((icons, index) => {
     return (
@@ -196,6 +204,21 @@ const HomePage = ({ data }) => {
   })
   return (
     <Layout>
+      <div>
+        {BackgroundImage ? (
+          <GatsbyImage
+            image={BackgroundImage}
+            alt={frontmatter.title + " - Background"}
+            className="background-image"
+            style={{
+              width: '100%',
+              margin: 0
+            }}
+          />
+        ) : (
+          ""
+        )}
+      </div>
       <Seo />
       <div className="home-banner grids col-1 sm-2">
         <div>

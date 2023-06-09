@@ -4,6 +4,8 @@ slug: /contact
 title: Liên hệ
 ---
 
-Got a burning question regarding **JAMstack**, Need a new **Website**, or just anything in general. We are happy to talk.
+**Địa chỉ:** Thành Phố Cao Lãnh, Tỉnh Đồng Tháp
 
-Just send us a message using the form below or you can send us a DM on [Twitter](https://twitter.com/stackrole)
+**Số điện thoại:** 0768 026 026
+
+Gửi tin nhắn cho chúng tôi bằng cách sử dụng mẫu bên dưới hoặc bạn có thể gửi tin nhắn trực tiếp cho chúng tôi trên [Zalo](https://zalo.me/0768026026)

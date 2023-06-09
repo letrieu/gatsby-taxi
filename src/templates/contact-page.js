@@ -51,7 +51,7 @@ const Contact = ({ data }) => {
           <input type="hidden" name="form-name" value="contact" />
           <p>
             <label>
-              Name
+              Tên
               <input type="text" name="name" required />
             </label>
           </p>
@@ -63,13 +63,13 @@ const Contact = ({ data }) => {
           </p>
           <p>
             <label>
-              Subject
+              Tiêu đề
               <input type="text" name="subject" required />
             </label>
           </p>
           <p>
             <label>
-              Message<textarea name="message" required></textarea>
+              Tin nhắn<textarea name="message" required></textarea>
             </label>
           </p>
           <p className="text-align-right">
@@ -80,7 +80,7 @@ const Contact = ({ data }) => {
               }}
               type="submit"
             >
-              Send Message{" "}
+              Gửi tin nhắn{" "}
               <span className="icon -right">
                 <RiSendPlane2Line />
               </span>
