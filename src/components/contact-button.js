@@ -8,7 +8,7 @@ const ContactButton = () => (
       width: "200",
       height: 50,
       backgroundColor: "red",
-      bottom: 100,
+      bottom: 10,
       right: 10,
       borderRadius: 10
     }}
