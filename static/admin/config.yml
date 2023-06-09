@@ -64,7 +64,7 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-      - label: "Home"
+      - label: "Trang chủ"
         name: "home"
         file: "src/content/pages/index.md"
         fields:
@@ -89,7 +89,7 @@ collections:
               - name: "ctaLink"
                 label: "CTA Link"
                 widget: "string"
-      - label: "About"
+      - label: "Về chúng tôi"
         name: "about"
         file: "src/content/pages/about.md"
         fields:
@@ -102,7 +102,7 @@ collections:
           - { label: "Slug", name: "slug", widget: "hidden", default: "/about" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Contact"
+      - label: "Liên hệ"
         name: "contact"
         file: "src/content/pages/contact.md"
         fields:
@@ -192,7 +192,6 @@ collections:
                     "snapchat",
                     "skype",
                     "wordpress",
-                    "tiktok",
                     "dribbble",
                     "medium",
                     "behance",

@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 
 const NotFound = () => (
   <Layout className="not-found-page">
-    <Seo title="Page not found" />
+    <Seo title="Trang không tồn tại" />
     <div
       className="wrapper"
       style={{
@@ -21,18 +21,17 @@ const NotFound = () => (
             color: "var(--primary-color)",
           }}
         />
-        <h1>Oops we did not expect that to happen</h1>
+        <h1>Rất tiếc, chúng tôi không mong đợi điều đó xảy ra</h1>
         <p>
-          Have you wondered into the unknow. Let us help you, Please take a look
-          at below options
+          Có lỗi xảy ra
         </p>
       </header>
       <Link to="/" className="button">
         <RiArrowLeftSLine className="icon -left" />
-        Back to Homepage
+        Trở lại trang chủ
       </Link>
       <Link to="/contact" className="button -outline">
-        Report this <RiBugLine className="icon -right" />
+        Báo lỗi <RiBugLine className="icon -right" />
       </Link>
     </div>
   </Layout>
