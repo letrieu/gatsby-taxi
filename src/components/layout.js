@@ -11,6 +11,7 @@ import Footer from "./footer"
 import Theme from "../components/theme"
 import Search from "../components/search"
 import ContactButton from "./contact-button"
+import ZaloButton from "./zalo-button"
 
 const query = graphql`
   query LayoutQuery {
@@ -47,6 +48,7 @@ const Layout = ({ children, className, props }) => {
       <main className={"container " + className}>{children}</main>
 
       <ContactButton />
+      <ZaloButton />
 
       <Footer />
     </div>

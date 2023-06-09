@@ -6,7 +6,7 @@ title: Về chúng tôi
 
 Với địa bàn hoạt động rộng, Taxi Đồng Tháp Giá Rẻ có hệ thống đầy đủ xe đời mới 4 chỗ, 7 chỗ, 16 chỗ luôn sẵn sàn phục vụ quý khách khắp các khu vực nội ngoại thành tỉnh Đồng Tháp.
 
-Bạn muốn gọi xe ở khu vực nào chỉ cần liên hệ ngay đến số 0773 749 749 để được phục vụ một cách tốt nhất nhé. Hỗ trợ 24/24.
+Bạn muốn gọi xe ở khu vực nào chỉ cần liên hệ ngay đến số 0768026026 để được phục vụ một cách tốt nhất nhé. Hỗ trợ 24/24.
 
 Với Taxi Đồng Tháp Giá Rẻ, chúng tôi sẽ tư vấn cho bạn dịch vụ đặt taxi tối ưu nhất. Bạn sẽ được hỗ trợ nhiệt tình chu đáo, cung cấp mức giá tốt đáp ứng mọi nhu cầu sử dụng, điểm đi - điểm đến. ĐẶT XE NGAY GIẢM ĐẾN 30 %
 
