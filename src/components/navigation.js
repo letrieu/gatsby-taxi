@@ -12,11 +12,11 @@ const MenuItems = [
   },
   {
     path: "/about",
-    title: "Về chúng tôi",
+    title: "Giới thiệu",
   },
   {
     path: "/blog",
-    title: "Bài viết",
+    title: "Tin tức",
   },
   {
     path: "/contact",

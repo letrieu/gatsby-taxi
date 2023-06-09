@@ -10,6 +10,7 @@ import "../assets/scss/style.scss"
 import Footer from "./footer"
 import Theme from "../components/theme"
 import Search from "../components/search"
+import ContactButton from "./contact-button"
 
 const query = graphql`
   query LayoutQuery {
@@ -44,6 +45,9 @@ const Layout = ({ children, className, props }) => {
         </div>
       </Header>
       <main className={"container " + className}>{children}</main>
+
+      <ContactButton />
+
       <Footer />
     </div>
   )

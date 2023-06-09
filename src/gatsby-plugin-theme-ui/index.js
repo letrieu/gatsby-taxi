@@ -57,6 +57,10 @@ const theme = {
         color: "buttonHoverColor",
       },
     },
+    contactButton: {
+      bg: "siteColor",
+      color: "buttonColor",
+    },
     socialIcons: {
       a: {
         color: "socialIcons",
