@@ -27,47 +27,47 @@ import Seo from "../components/seo"
 import Icons from "../util/socialmedia.json"
 
 export const pageQuery = graphql`
-  query HomeQuery($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      id
-      html
-      frontmatter {
-        title
-        tagline
-        featuredImage {
-          childImageSharp {
-            gatsbyImageData(layout: CONSTRAINED, width: 585, height: 439)
-          }
-        }
-        cta {
-          ctaText
-          ctaLink
+query HomeQuery($id: String!) {
+  markdownRemark(id: {eq: $id}) {
+    id
+    html
+    frontmatter {
+      title
+      tagline
+      featuredImage {
+        childImageSharp {
+          gatsbyImageData(layout: CONSTRAINED, width: 585, height: 439)
         }
       }
+      cta {
+        ctaText
+        ctaLink
+      }
     }
-    posts: allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { frontmatter: { template: { eq: "blog-post" } } }
-      limit: 6
-    ) {
-      edges {
-        node {
-          id
-          excerpt(pruneLength: 250)
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            slug
-            title
-            featuredImage {
-              childImageSharp {
-                gatsbyImageData(layout: CONSTRAINED, width: 345, height: 260)
-              }
+  }
+  posts: allMarkdownRemark(
+    sort: {frontmatter: {date: DESC}}
+    filter: {frontmatter: {template: {eq: "blog-post"}}}
+    limit: 6
+  ) {
+    edges {
+      node {
+        id
+        excerpt(pruneLength: 250)
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          slug
+          title
+          featuredImage {
+            childImageSharp {
+              gatsbyImageData(layout: CONSTRAINED, width: 345, height: 260)
             }
           }
         }
       }
     }
   }
+}
 `
 
 const HomePage = ({ data }) => {
@@ -81,21 +81,21 @@ const HomePage = ({ data }) => {
       <div key={"social icons" + index}>
         {icons.icon === "facebook" ? (
           <a href={icons.url} target="_blank" aria-label="link to Facebook" rel="noopener noreferrer">
-            <RiFacebookBoxFill alt="Facebook icon"/>
+            <RiFacebookBoxFill alt="Facebook icon" />
           </a>
         ) : (
           ""
         )}
         {icons.icon === "twitter" ? (
           <a href={icons.url} target="_blank" aria-label="link to Twitter" rel="noopener noreferrer">
-            <RiTwitterFill alt="Twitter icon"/>
+            <RiTwitterFill alt="Twitter icon" />
           </a>
         ) : (
           ""
         )}
         {icons.icon === "linkedin" ? (
           <a href={icons.url} target="_blank" aria-label="link to Linkedin" rel="noopener noreferrer">
-            <RiLinkedinBoxFill alt="Linkedin icon"/>
+            <RiLinkedinBoxFill alt="Linkedin icon" />
           </a>
         ) : (
           ""
