@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Dịch vụ đưa đón tại sân bay
-slug: dich-vu-dua-don-san-bay
+slug: /dich-vu-dua-don-san-bay
 date: 2023-06-10 20:48
 description: Taxi Đồng Tháp, đưa đón, sân bay
 featuredImage: /assets/anh_may_bay11-14_39_52_605.png
