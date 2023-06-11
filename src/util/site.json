@@ -5,7 +5,7 @@
     "description": "Taxi Đồng Tháp Giá Rẻ",
     "siteUrl": "https://stalwart-macaron-5b333f.netlify.app",
     "image": "/assets/taxi.png",
-    "iconimage": "/assets/taxi.png",
+    "iconimage": "/assets/taxi.png"
   },
   "ga": "UA-XXXXXXXXX-X"
 }
