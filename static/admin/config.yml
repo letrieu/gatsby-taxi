@@ -157,9 +157,6 @@ collections:
                 name: iconimage
                 label: favicon
               - widget: string
-                name: twitterUsername
-                label: Twitter
-                required: false
 
           - label: "Google Analytics"
             name: ga
@@ -196,6 +193,7 @@ collections:
                     "medium",
                     "behance",
                     "vk",
+                    "zalo"
                   ]
                 hint: "Select the Icon"
               - widget: string

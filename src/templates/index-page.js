@@ -19,6 +19,10 @@ import {
   RiMediumFill,
   RiBehanceFill,
 } from "react-icons/ri"
+import {
+  SiZalo
+} from "react-icons/si"
+
 import { FaWordpress, FaVk } from "react-icons/fa"
 
 import Layout from "../components/layout"
@@ -195,6 +199,13 @@ const HomePage = ({ data }) => {
         {icons.icon === "vk" ? (
           <a href={icons.url} target="_blank" aria-label="link to vk" rel="noopener noreferrer">
             <FaVk alt="vk icon" />
+          </a>
+        ) : (
+          ""
+        )}
+        {icons.icon === "zalo" ? (
+          <a href={icons.url} target="_blank" aria-label="link to Zalo" rel="noopener noreferrer">
+            <SiZalo alt="Zalo icon" />
           </a>
         ) : (
           ""
