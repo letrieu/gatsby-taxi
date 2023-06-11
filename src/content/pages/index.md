@@ -3,7 +3,7 @@ template: index-page
 slug: /
 title: Taxi Đồng Tháp Giá Rẻ
 tagline: Taxi Đồng Tháp
-featuredImage: /assets/1481.jpg
+featuredImage: /assets/z4418595595591_45f68388c573648807ad82032494b92c.jpg
 backgroundImage: /assets/background.jpg
 cta:
   ctaText: Liên hệ
