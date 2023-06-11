@@ -156,7 +156,6 @@ collections:
               - widget: image
                 name: iconimage
                 label: favicon
-              - widget: string
 
           - label: "Google Analytics"
             name: ga
