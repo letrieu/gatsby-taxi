@@ -25,6 +25,8 @@ import {
 
 import { FaWordpress, FaVk } from "react-icons/fa"
 
+import { FiPhoneCall } from "react-icons/fi"
+
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
 import Seo from "../components/seo"
@@ -246,6 +248,17 @@ const HomePage = ({ data }) => {
             className="description"
             dangerouslySetInnerHTML={{ __html: html }}
           />
+          <a href='tel:0817226799'
+            className="button"
+            sx={{
+              variant: "variants.button",
+            }}
+          >
+            <span className="icon" style={{ marginRight: 10 }}>
+              <FiPhoneCall />
+            </span>
+            Đặt xe: 0817 226 799
+          </a>
           <Link
             to={frontmatter.cta.ctaLink}
             className="button"
