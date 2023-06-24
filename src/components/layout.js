@@ -10,8 +10,7 @@ import "../assets/scss/style.scss"
 import Footer from "./footer"
 import Theme from "../components/theme"
 import Search from "../components/search"
-import ContactButton from "./contact-button"
-import ZaloButton from "./zalo-button"
+import ContactButtons from "./contact-buttons"
 
 const query = graphql`
   query LayoutQuery {
@@ -47,8 +46,7 @@ const Layout = ({ children, className, props }) => {
       </Header>
       <main className={"container " + className}>{children}</main>
 
-      <ContactButton />
-      <ZaloButton />
+      <ContactButtons />
 
       <Footer />
     </div>
