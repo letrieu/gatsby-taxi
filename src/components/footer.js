@@ -10,7 +10,7 @@ const Footer = () => (
   >
     <div className="container">
       <p>
-        Dịch vụ đặt xe Đồng Tháp - <a href="tel:0768026026">0768026026</a>
+        Dịch vụ đặt xe Đồng Tháp - <a href="tel:0817226799">0817226799</a>
       </p>
     </div>
   </footer>

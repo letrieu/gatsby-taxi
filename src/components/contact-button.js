@@ -2,7 +2,7 @@ import React from "react"
 import { FiPhoneCall } from "react-icons/fi"
 
 const ContactButton = () => (
-  <a href='tel:0768026026'
+  <a href='tel:0817226799'
     style={{
       position: "fixed",
       width: "200",
@@ -23,7 +23,7 @@ const ContactButton = () => (
       <span className="icon" style={{ marginRight: 10 }}>
         <FiPhoneCall />
       </span>
-      Đặt xe: 0768 026 026
+      Đặt xe: 0817 226 799
     </div>
   </a>
 )
