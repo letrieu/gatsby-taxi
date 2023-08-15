@@ -17,7 +17,7 @@ const ContactButtons = () => (
         <div className="phone-vr">
           <div className="phone-vr-circle-fill" />
           <div className="phone-vr-img-circle">
-            <a href="tel:0817226799">
+            <a href="tel:0773749749">
               <img src="/assets/phone.png" />
             </a>
           </div>

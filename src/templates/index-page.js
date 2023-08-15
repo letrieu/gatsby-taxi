@@ -248,7 +248,7 @@ const HomePage = ({ data }) => {
             className="description"
             dangerouslySetInnerHTML={{ __html: html }}
           />
-          <a href='tel:0817226799'
+          <a href='tel:0773749749'
             className="button"
             sx={{
               variant: "variants.button",
@@ -257,7 +257,7 @@ const HomePage = ({ data }) => {
             <span className="icon" style={{ marginRight: 10 }}>
               <FiPhoneCall />
             </span>
-            Đặt xe: 0817 226 799
+            Đặt xe: 0773 749 749
           </a>
           <div
             className="social-icons"
