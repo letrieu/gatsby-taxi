@@ -3,7 +3,7 @@ import React from "react"
 const ContactButtons = () => (
   <div id="button-contact-vr" className="">
     <div id="gom-all-in-one">
-      <div id="zalo-vr" className="button-contact">
+      {/* <div id="zalo-vr" className="button-contact">
         <div className="phone-vr">
           <div className="phone-vr-circle-fill" />
           <div className="phone-vr-img-circle">
@@ -12,7 +12,7 @@ const ContactButtons = () => (
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
       <div id="phone-vr" className="button-contact">
         <div className="phone-vr">
           <div className="phone-vr-circle-fill" />
