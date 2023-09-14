@@ -7,8 +7,8 @@ const ContactButtons = () => (
         <div className="phone-vr">
           <div className="phone-vr-circle-fill" />
           <div className="phone-vr-img-circle">
-            <a target="_blank" href="https://zalo.me/0768026026">
-              <img src="/assets/zalo.png" />
+            <a href="https://zalo.me/0768026026">
+              <img src="/assets/zalo.png" alt="zalo-button-img" />
             </a>
           </div>
         </div>
@@ -18,7 +18,7 @@ const ContactButtons = () => (
           <div className="phone-vr-circle-fill" />
           <div className="phone-vr-img-circle">
             <a href="tel:0773749749">
-              <img src="/assets/phone.png" />
+              <img src="/assets/phone.png" alt="zalo-button-img" />
             </a>
           </div>
         </div>
